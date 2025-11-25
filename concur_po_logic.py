@@ -29,7 +29,7 @@ PATH_200 = "200 rows.csv"
 
 def generate_output_filename():
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
-    return f"list_p1208057kcft_{timestamp}.csv"
+    return f"POInvoice_p1208057kcft_{timestamp}.txt"
 
 
 # Local temp directory for processing
